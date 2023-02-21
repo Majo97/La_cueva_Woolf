@@ -1,0 +1,213 @@
+*{
+  margin: auto;
+  padding: auto;
+
+}
+
+body{
+	background-image:url(../img/fondos/fondocatalogo.png);
+	background-attachment: fixed;
+}
+
+nav{
+  margin-top: 20px;
+  background: #d5a668c9;
+  width: 96%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.links{
+	width:150px;
+	display: inline;
+  margin-right: 40px;
+  font-family: monospace;
+  line-height: 25px;
+}
+.linkscontainer{
+	margin-bottom: 0px;
+}
+.buscador, .buscar{
+	border-radius: 9px;
+}
+.buscar{
+	width: 20px;
+	height: 20px;
+}
+.buscadorcontainer input{
+	margin-top: 5px;
+}
+.botonbuscar{
+	display:flex;
+	justify-content: end;
+	margin-top: -23px;
+	margin-left:190px;
+}
+
+.carrito-de-compras img:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform:scale(1.1);
+	transform: scale(1.1);
+}
+
+.nombredepagina{
+  color: rgba(255, 255, 255, 0.904);
+  font-size: 36px;
+  width: 600px;
+  margin-bottom: 0;
+}
+
+
+						/*	  ------------------------------	Contenido	------------------------------------   	*/
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: #884d00c9;
+}
+.contenedorofertas{
+	display:flex;
+	justify-content: center;
+	margin-top: 35px;
+	margin-bottom: -18px;
+}
+.unidad{
+	width: 340px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	border-radius:18px;
+	background-color: rgba(66, 66, 66, 0.412);
+}
+.contenedorlibros{
+	display:flex;
+	margin: 55px 60px;
+}
+.portada{
+	width: 200px;
+	height:270px;
+	overflow:hidden;
+	border-radius: 15px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.precios{
+	display:flex;
+	flex-direction: row;
+	margin: 10px 0;
+}
+.nombre{
+	color:#764300;
+}
+.texto{
+	margin: 0;
+	padding: 0 20px;
+}
+.antes{
+	text-decoration: line-through;
+}
+.ahora{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.precios{
+	width: 100%
+}
+
+.autor{
+	margin:8px 0;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.unidad:hover{
+	width: 340px;
+	height: 500px;
+	display: flex;
+	border-radius:18px;
+	background-color: rgba(66, 66, 66, 0.797);
+}
+
+/* 									--------------------- FOOTER --------------------						*/
+
+footer{
+	background:linear-gradient( #ffffff00,  #945502c9);
+}
+.piedepagina{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 80px;
+}
+.mapa{
+	background-color: rgba(255, 255, 255, 0.68);
+	width:80%;
+	height:200px;
+    margin-top:10px;
+}
+.containerfoot{
+	width:100%;
+	height:auto;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+.nosotros{
+	display: flex;
+	justify-content: center;
+    margin:0px 0 12px 0;
+}
+.nosotros p{
+	font-family: Arial;
+	font-size: 16px;
+    font-weight:bold;
+}
+.inline {
+	display: flex;
+	flex-direction: row;
+}
+.redes{
+	width: 40px;
+	height: 40px;
+	margin-left:70px;
+    padding:3px;
+}
+.inline p{
+	margin-left: 50px;
+
+}
+.respuesta input{
+	border-radius: 5px;
+	display: flex;
+	width: 98%;
+	margin: 5px 0;
+    border: none;
+}
+.enviar{
+	padding:10px;
+	display: flex;
+	justify-content: center;
+}
+.enviar button{
+	width:70px;
+	height:30px;
+    border-radius: 5px;
+    background-color:#915200c9;
+    color: white;
+    border: none;
+}
+.cajagrande{
+    height:40px;
+}
+.final{
+    display: flex;
+    padding:15px 0;
+}
+.final p{
+	font-weight:bold;
+}

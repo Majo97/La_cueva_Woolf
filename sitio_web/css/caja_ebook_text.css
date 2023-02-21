@@ -1,0 +1,97 @@
+
+.index{
+}
+.pag_tittle{
+    text-align: center;
+    font-family: "titulo";
+    font-style: italic;
+    font-size: 30px;
+    color: #475549;
+    text-shadow: 1px 1px rgb(91, 131, 102), -0.3px -0.3px #6e424f85 
+}
+.pag_tittle:hover{
+    -webkit-text-stroke: 1px #6e424f85 translateY(-10px);
+    transition: 150ms;
+    transform: translateY(-10px);
+}
+.decoration{
+    inline-size: 80px;
+    margin-top: 10px;
+}
+.box{
+    width: 250px;
+    height: 470px;
+    border-radius: 20px;
+    background: rgba(167, 111, 153, 0.664);
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+.box:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(151, 111, 139, 0.808);
+    background-color: #6e424f85;
+    cursor: all-scroll;
+    -webkit-text-fill-color: #143612;
+}
+.caja_ebook_tittle{
+    text-decoration: underline;
+    text-align: center;
+    font-family: "titulo";
+    font-style: oblique;
+    font-size: 14px;
+    font-stretch: expanded;
+    color: #4b4d56;
+    text-shadow: 0.4px 0.4px rgb(123, 99, 116), -0.3px -0.3px #6e424f85;
+}
+.caja_ebook_img{
+    border-radius: 10PX;
+    grid-template-columns: auto auto auto auto;
+    width: 79%;
+    height: max-content;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.caja_ebook_text{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "fuente";
+    font-stretch: semi-expanded;
+    line-height: 15px;
+    font-size: 12px;
+} 
+
+.caja_ebook_text:hover{
+    scrollbar-width: scale(-0.5.-0.5);
+    transform: scale(-0.5.-0.5);
+    text-emphasis-style: bold;
+    cursor: all-scroll;
+    overflow: hidden;
+    text-emphasis-color: rgb(39, 62, 30);
+}
+.caja_ebook_button{
+    font-style: bold;
+    font-family: tahoma;
+    color: #a7c2a6;
+    border-radius: 5px;
+    text-decoration: none
+}
+.caja_ebook_button:hover{
+    scrollbar-width: scale(0.5.0.5);
+    transform: scale(0.5.0.5);
+    box-shadow: 0 0 0, rgba(151, 111, 139, 0.808);
+    background-color: #6e424f85;
+    cursor: all-scroll;
+    color: none;    
+    font-stretch: expanded;
+    text-decoration: none;
+    border-radius: 1%;
+}

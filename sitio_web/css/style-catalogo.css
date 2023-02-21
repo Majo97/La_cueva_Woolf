@@ -1,0 +1,92 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{/*fondo*/
+    background:rgba(237, 213 , 206, 1);
+    height: 1000px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    color: #c67560;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 25px;
+}
+.ido{/*alineacion de imagenes*/
+    margin-top: 14px;
+    margin-left: 15px;
+    
+}
+
+#e-books{/*linea gris de e-books*/
+    width: 80%;
+    height: 35px;
+    border-radius: 20px;
+    background: gray;
+    text-align: center;
+    margin-top: 43px;
+}
+#libros{/*linea gris de libros*/
+    width: 80%;
+    height: 35px;
+    border-radius: 20px;
+    background: gray;
+    text-align: center;
+    margin-top: 53px;
+}
+.fila .circulos{/*circulos naranjas*/
+    border-radius: 100px;
+    margin-top: 30px;
+    width: 180px;
+    height: 178px;
+    background: #c67560;
+    margin-left: 70px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    overflow: hidden;
+    position: relative;
+}
+.fila figure{/*alineacion de los circulos naranjas*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circulos img{
+    object-fit: cover;
+}
+.circulos .capa{/* configuracion del fondo gris que aparece en el circulo*/
+    width:0%;
+    height: 180px;
+    background-color: rgba(56, 53, 53, 0.568);
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s all;
+    border-radius: 50%;  
+  
+}
+.capa h2{/*texto que aparece en el fondo gris*/
+    color:#ffff;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;  
+}
+.circulos:hover .capa{/*esto activa el hover*/
+    width: 100%;
+}
+
+.separ{
+    
+    padding-bottom: 100px;
+}
+
+

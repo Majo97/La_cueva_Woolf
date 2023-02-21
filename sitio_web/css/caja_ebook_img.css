@@ -1,0 +1,12 @@
+.caja_ebook_img{
+    border-radius: 15PX;
+}
+.caja_ebook_img:hover{
+    border-radius: 15PX;
+}
+.caja_ebook_img:hover{
+    -webkit-transform: scale(1.5); transform: scale(1.3);
+}
+.caja_ebook_img{
+    text-overflow: ellipsis;
+}
